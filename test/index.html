@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <script type="text/javascript">
+    fetch('https://raw.githubusercontent.com/CS481/solid-start/master/test/user')
+      .then(response => response.json())
+      .then(json => console.log(json))
+      .catch(error => console.error('Error:', error));
+  </script>
+</body>
+
+</html>
