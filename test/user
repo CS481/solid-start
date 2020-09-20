@@ -1,4 +1,6 @@
-{
-  "name": "John",
-  "surname": "Doe"
-}
+[
+  {
+    "name": "John",
+    "surname": "Doe"
+  }
+]
